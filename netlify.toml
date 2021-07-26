@@ -13,10 +13,10 @@
   #  force = true
    #signed = "SIGNED_PROXY_SECRET_TOKEN"
 
-  [[headers]]
-   for = "/*" 
-    [headers.values]
-     Access-Control-Allow-Origin = "my-first-serveless-site-javisito.netlify.app"
+  # [[headers]]
+  #  for = "/*" 
+  #   [headers.values]
+  #    Access-Control-Allow-Origin = "my-first-serveless-site-javisito.netlify.app"
 
   ## (optional) Settings for Netlify Dev
   ## https://github.com/netlify/cli/blob/main/docs/netlify-dev.md#project-detection
